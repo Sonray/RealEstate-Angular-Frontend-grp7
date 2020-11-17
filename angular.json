@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "House"
+    }
+  },
+  "defaultProject": "House",
+  "cli": {
+    "analytics": false
+  }
 }
