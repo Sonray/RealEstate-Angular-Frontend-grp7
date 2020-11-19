@@ -15,4 +15,20 @@ export class HomeService {
   getHouses(): Observable<any> {
     return this.http.get(baseUrl);
   }
+
+  newHouse(data): Observable<any> {
+    return this.http.post(baseUrl,data);
+  }
+
+  getHouse(id): Observable<any> {
+    return this.http.get(`${newUrl}/${id}`);
+  }
+
+  updateHouse(id, data): Observable<any> {
+    return this.http.put(`${newUrl}/${id}`, data);
+  }
+
+  deleteHouse(id): Observable<any> {
+    return this.http.delete(`${newUrl}/${id}`);
+  }
 }
