@@ -16,6 +16,15 @@ export class HouseFormComponent implements OnInit {
   constructor(private formBuilder: FormBuilder, private homeService: HomeService) { }
 
   ngOnInit(): void {
+    this.form = this.formBuilder.group({
+      houses:[]
+    });
+  }
+
+  onFileSelectec(event){
+    if(event.target.files.length > 0) {
+      const file = event.target.files[0]
+    }
   }
 
 }
