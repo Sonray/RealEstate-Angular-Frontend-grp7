@@ -32,15 +32,9 @@ import { ReviewComponent } from './review/review.component';
     HomeDetailComponent,
     LandingComponent,
     NavbarComponent,
-<<<<<<< HEAD
-    ProfileComponent,
-   
-    
-=======
     HouseFormComponent,
     HouseListComponent,
     ReviewComponent,
->>>>>>> a0e716966a44eafe8196da4372a4b04687fbf783
   ],
   imports: [
     BrowserModule,
