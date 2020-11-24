@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 const baseUrl = 'http://localhost:8000/api/houses';
-const newUrl = 'http://localhost:8000/api/house';
+const newUrl = 'http://localhost:8000/api/house/house-id';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +12,7 @@ export class HomeService {
 
   constructor(private http:HttpClient) { }
 
-  getHouses(): Observable<any> {
+  public getHouses(): Observable<any> {
     return this.http.get(baseUrl);
   }
 
