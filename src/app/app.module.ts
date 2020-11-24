@@ -42,7 +42,6 @@ import { ReviewComponent } from './review/review.component';
     HomeComponent,
     HomeDetailComponent,
     LandingComponent,
-    NavbarComponent,
     HouseFormComponent,
     HouseListComponent,
     ReviewComponent,
