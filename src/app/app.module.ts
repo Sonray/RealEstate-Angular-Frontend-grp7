@@ -10,7 +10,9 @@ import { ProfileComponent } from './profile/profile.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    ProfileComponent
+    ProfileComponent,
+   
+    
   ],
   imports: [
     BrowserModule,
