@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>{{currentHouse.name}}</mat-card-title>
+                    <mat-card-subtitle> Category: {{currentHouse.category}}</mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                    <img mat-card-lg-image src="{{currentHouse.image}}" alt="image" style="height: 300px; width: 600px;">
+                    <p>{{currentHouse.description}}</p>
+                    <button mat-icon-button><i class="fa fa-bed" aria-hidden="true"></i> {{currentHouse.bed}} bedroom</button><br>
+                    <button mat-icon-button><i class="fa fa-bath" aria-hidden="true"></i> {{currentHouse.bath}} bathroom</button>
+                </mat-card-content>
+                <mat-card-footer>
+                    <p>Location: {{currentHouse.location}}</p>
+                    <p>Price: {{currentHouse.price}}</p>
+                </mat-card-footer>
+            </mat-card>
+        </div>
+        <div class="col-md-4">
+            <mat-card>
+                <mat-card-header>
+                    <img mat-card-md-image src="{{currentHouse.user.pic}}" alt="profile pic" class="rounded">
+                    <mat-card-title>{{currentHouse.user.username}}</mat-card-title>
+                    <mat-card-subtitle>Your Realtor</mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                    <h3>Contacts</h3>
+                    <h3>{{currentHouse.user.email}}</h3>
+                    <h3>{{currentHouse.user.number}}</h3>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            
+        </div>
+    </div>
+</div>
