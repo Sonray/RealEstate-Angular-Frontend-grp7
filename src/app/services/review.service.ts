@@ -1,17 +1,35 @@
 import { Injectable } from '@angular/core';
-import{HttpClient} from 'angular/common/http';
-import { from } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+
+
+
+
+const baseUrl = 'http://localhost:8080/api/review';
+
+
 @Injectable({
   providedIn: 'root'
 })
+
 export class ReviewService {
-  url = '';
-  constructor(private http:Httpclient) { }
+  
+  constructor(private http: HttpClient) { }
 
-get user(){
+  getAll() {
+    return this.http.get(baseUrl);
+  }
 
-  return this.http.get(this.url);
+  addReview(data) {
+    return this.http.post(baseUrl, data);
+  }
 
-}
+
+
+
+
+
+
+
 
 }
