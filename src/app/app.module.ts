@@ -3,17 +3,14 @@
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-;
 import { HttpClientModule } from '@angular/common/http';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HomeDetailComponent } from './home-detail/home-detail.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
-
-import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LandingComponent } from './landing/landing.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -27,7 +24,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HouseListComponent } from './house-list/house-list.component';
 import { ReviewComponent } from './review/review.component';
 import { FooterComponent } from './footer/footer.component';
-import { HomepageComponent } from './homepage/homepage.component'
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +32,7 @@ import { HomepageComponent } from './homepage/homepage.component'
     HomeComponent,
     HomeDetailComponent,
     LandingComponent,
-    NavbarComponent,
+    // NavbarComponent,
     // HouseFormComponent,
     HouseListComponent,
     ReviewComponent,
@@ -57,7 +54,7 @@ import { HomepageComponent } from './homepage/homepage.component'
     MatCardModule,
     FormsModule,
     ReactiveFormsModule
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
