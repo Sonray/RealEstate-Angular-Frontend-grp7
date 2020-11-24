@@ -1,3 +1,6 @@
+// import { MatInputModule } from '@angular/material/input';
+// import { from } from 'rxjs';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -20,6 +23,7 @@ import {MatCardModule} from '@angular/material/card';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HouseFormComponent } from './house-form/house-form.component';
 import { HouseListComponent } from './house-list/house-list.component';
+import { ReviewComponent } from './review/review.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +33,8 @@ import { HouseListComponent } from './house-list/house-list.component';
     LandingComponent,
     NavbarComponent,
     HouseFormComponent,
-    HouseListComponent
+    HouseListComponent,
+    ReviewComponent,
   ],
   imports: [
     BrowserModule,
