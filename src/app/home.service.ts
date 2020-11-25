@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-const baseUrl = 'http://localhost:8000/api/houses';
-const newUrl = 'http://localhost:8000/api/house/house-id';
+const baseUrl = 'https://mavens2020.herokuapp.com/api/houses';
+const newUrl = 'https://mavens2020.herokuapp.com/api/house/house-id';
 
 @Injectable({
   providedIn: 'root'
