@@ -21,11 +21,10 @@
             <mat-card   style="margin: 10px; background-color: #dee2ff; color: black;">
                 <mat-card-header>
                     <mat-card-title>{{house.name}}</mat-card-title>
-                    <mat-card-subtitle> Category: {{house.category}}</mat-card-subtitle>
+                    <mat-card-subtitle> Category: {{house.category.catname}}</mat-card-subtitle>
                 </mat-card-header>
                 <mat-card-content>
                     <img mat-card-lg-image src="{{house.image}}" alt="image" class="img-fluid" style="width: 100%">
-                    <p>{{house.description}}</p>
                 </mat-card-content>
                 <mat-card-footer style="padding: 10px;">
                     <p><i class="fa fa-map-marker" aria-hidden="true"></i> {{house.location}}</p>

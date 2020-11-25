@@ -25,7 +25,8 @@ import { HouseFormComponent } from './house-form/house-form.component';
 import { HouseListComponent } from './house-list/house-list.component';
 import { ReviewComponent } from './review/review.component';
 import { FooterComponent } from './footer/footer.component';
-import { HomepageComponent } from './homepage/homepage.component'
+import { HomepageComponent } from './homepage/homepage.component';
+import { CategoryComponent } from './category/category.component'
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { HomepageComponent } from './homepage/homepage.component'
     ReviewComponent,
     FooterComponent,
     HomepageComponent,
+    CategoryComponent,
   ],
   imports: [
     BrowserModule,
