@@ -27,7 +27,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
 import { NavbarComponent } from './navbar/navbar.component';
-import { HouseFormComponent } from './house-form/house-form.component';
+// import { HouseFormComponent } from './house-form/house-form.component';
 import { HouseListComponent } from './house-list/house-list.component';
 import { ReviewComponent } from './review/review.component';
 import { FooterComponent } from './footer/footer.component';
@@ -43,7 +43,7 @@ import { HomepageComponent } from './homepage/homepage.component';
     HomeComponent,
     HomeDetailComponent,
     LandingComponent,
-    HouseFormComponent,
+    // HouseFormComponent,
     HouseListComponent,
     ReviewComponent,
     FooterComponent,
