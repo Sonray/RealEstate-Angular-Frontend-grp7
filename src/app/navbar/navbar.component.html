@@ -1,53 +1,69 @@
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: blue; width: 100%;">
 
-    <div class="container">
+    <!-- Navbar brand -->
 
-        <!-- Navbar brand -->
-        <a class="navbar-brand" href="#">Real estate </a>
-
-        <!-- Collapse button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto" style="color: white;">
+        <li class="nav-item ">
             <span class="navbar-toggler-icon"></span>
-        </button>
+            </button>
+            </a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="homes">Posts
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <!-- Dropdown -->
+        <a class="nav-link" href="landing">Home
+            <!-- Dropdown -->
+            <span class="sr-only">(current)</span>
+          </a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="homes">View Posts</a>
+            <a class="dropdown-item" href="add">Add Posts</a>
+            <span class="sr-only">(current)</span>
+            </a>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Enquiry</a>
+            </li>
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Posts</a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="homes">View Posts</a>
+                <a class="dropdown-item" href="add">Add Posts</a>
+            </div>
 
-        <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="basicExampleNav">
-
-            <!-- Links -->
-            <ul class="navbar-nav mr-auto smooth-scroll">
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="">Home</a>
-                </li>
             
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="programs">Houses</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="contact">Contacts</a>
-                </li>
-                
-                  
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="contact">Inquiry</a>
-                </li>
-                
-            </ul>
-            <!-- Links -->
-
-            <!-- Social Icon  -->
-            <ul class="navbar-nav nav-flex-icons">
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="login">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="register">Register</a>
-                </li>
-            </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: white;">Enquiry</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reviews</a>
+        </li>
+  
+       
+  
+      </ul>
+      <!-- Links -->
+  
+      <form class="form-inline">
+        <li class="nav-item navbar nav-tabs nav bg-dark">
+          <a class="nav-link text-light" routerLink='register'>SIGN UP</a>
+        </li>
+        <li class="nav-item navbar nav-tabs nav bg-dark">
+          <a class="nav-link text-light" routerLink='login'>LOGIN</a>
+        </li>
+        
+        <div class="md-form my-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
         </div>
-        <!-- Collapsible content -->
-
+      </form>
+     
     </div>
-
-</nav>
+    <!-- Collapsible content -->
+  
+  </nav>
+<br>
+<br>
+<br>
