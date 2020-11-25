@@ -16,9 +16,10 @@
   z-index: 1;
 }
 .welcome{
-  background-image: url(../../assets/house.jpg);
+  background: url(../../assets/h2.jpg)no-repeat center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  -o-background-size: cover;
   height: 80vh;
   width: 100%;
 }
